@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    color: hsl(229, 6%, 66%);
+}
+/* ----------- main ------------ */
+.main-section{
+    min-height: 100vh;
+}
+.head{
+    text-align: center;
+    margin: 3rem;
+}
+.head1{
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+}
+.head2{
+    font-weight: 600;
+}
+.headp{
+    margin: 0 auto;
+    width: 40%;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+/* ------------ content section ------------------ */
+.content-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    /* justify-content: space-between; */
+    max-width: 90%;
+}
+.row h1{
+    font-size: 18px;
+    font-weight: 600;
+}
+.row p{
+    font-weight: 500;
+}
+.first-div,.center-div,.last-div{
+    max-width: 35%;
+    
+}
+img{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.first-div,.last-div{
+    position: relative;
+    padding: 20px;
+    align-self: center;
+    background-color: rgb(255, 255, 255);
+    min-height: 15rem;
+    box-shadow: 0 20px 30px -12px rgba(118, 239, 255, 0.25);
+    border-radius: .5rem;
+}
+.first-div p,.last-div p{
+    padding-right: 70px;
+}
+.first-div{
+    margin-right: 50px;
+    border-top: 5px solid hsl(180, 62%, 55%);
+
+}
+.center-div{
+    min-height: 30rem;
+    flex-direction: column;
+}
+.cd{
+    min-height: 15rem;
+    position: relative;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+    box-shadow: 0 20px 30px -12px rgba(118, 239, 255, 0.25);
+    border-radius: .5rem;
+}
+.cd p{
+    padding-right: 70px;
+}
+.cd1{
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+.cd2{
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+.last-div{
+    margin-left: 50px;
+    border-top: 5px solid hsl(212, 86%, 64%) ;
+}
+.attribution{
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+.attribution a{
+    color: rgb(0, 204, 255);
+    padding-left: 5px;
+}
